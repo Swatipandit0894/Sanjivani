@@ -1,0 +1,71 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-container h1 {
+  font-size: 36px;
+  color: #004d40;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #a7ffeb;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.dashboard-card {
+  background: linear-gradient(145deg, #ffffff, #e0f2f1);
+  padding: 30px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 150, 136, 0.15);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #b2dfdb;
+  position: relative;
+  overflow: hidden;
+}
+
+.dashboard-card::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(0,150,136,0.2) 10%, transparent 60%);
+  transform: rotate(45deg);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.dashboard-card:hover::before {
+  opacity: 1;
+}
+
+.dashboard-card h3 {
+  color: #00695c;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  background: linear-gradient(to right, #a7ffeb, #b2dfdb);
+  box-shadow: 0 10px 20px rgba(0, 150, 136, 0.25);
+}
+
+.dashboard-card:hover h3 {
+  color: #004d40;
+}

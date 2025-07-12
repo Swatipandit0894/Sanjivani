@@ -1,0 +1,78 @@
+/* herbal.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  font-family: 'Segoe UI', sans-serif;
+  color: #2e7d32;
+}
+
+.plant-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 150, 136, 0.15);
+}
+
+.plant-container h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #004d40;
+  text-shadow: 1px 1px 1px #a7ffeb;
+}
+
+.plant {
+  background: #f9fbe7;
+  margin-bottom: 20px;
+  padding: 20px 25px;
+  border-left: 6px solid #81c784;
+  border-radius: 12px;
+  box-shadow: 0 5px 12px rgba(139, 195, 74, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.plant:hover {
+  transform: translateY(-3px);
+  background-color: #f1f8e9;
+}
+
+.plant h3 {
+  font-size: 22px;
+  margin: 0;
+  color: #33691e;
+}
+
+.plant a {
+  text-decoration: none;
+}
+
+.plant p {
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 1.6;
+  color: #4e342e;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .plant-container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .plant {
+    padding: 16px;
+  }
+
+  .plant h3 {
+    font-size: 20px;
+  }
+
+  .plant p {
+    font-size: 15px;
+  }
+}
