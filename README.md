@@ -43,3 +43,10 @@ sanjivani/
 
 
 
+2. ⚙️ Technologies Used
+
+- Frontend: React.js, React Router
+- Backend: Node.js, Express.js, MongoDB
+- Styling: CSS, Bootstrap
+- Other: JWT, bcrypt, axios, mongoose
+
