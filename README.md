@@ -1,14 +1,27 @@
- Project Description
-Sanjivani Ayurveda is a full-stack Ayurvedic consultation platform where patients can:
-- Analyze Doshas
-- Check symptoms
-- Book appointments with doctors
-- View personalized herbal recommendations
+Sanjivani – Ayurvedic Consultation & Herbal Diagnosis Platform
+Sanjivani is a full-stack web application that blends traditional Ayurvedic wisdom with modern tech. It helps users explore herbal plants, analyze their dosha (body constitution), get personalized herbal recommendations, and book consultations with certified Ayurvedic doctors.
 
-Doctors can:
-- View appointments
-- Set availability
-- Generate and send online prescriptions
+🔹 Key Features:
+
+🌿 User Panel:
+
+Learn about herbal plants and Ayurvedic remedies
+
+Dosha analysis through an MSQ-based system
+
+Book online appointments and download prescriptions
+
+View past and current medical history in one place
+
+🧑‍⚕️ Doctor Panel:
+
+Secure login/signup with profile creation
+
+Set available slots for booking
+
+Create and send digital prescriptions to users
+
+View and manage patient history
 
 
 📁 Project Structure
